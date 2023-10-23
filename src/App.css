@@ -1,0 +1,93 @@
+*{
+  text-align: center;
+}
+
+body {
+  background-color: rgba(0, 255, 255, 0.644);
+  margin-bottom: 150px;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: rgba(127, 255, 212, 0.644);
+  max-width: 500px;
+  padding: 100px;
+  margin-top: 150px;
+  box-shadow: 1px 1px 10px 1px;
+  border-radius: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 10px 1px;
+}
+
+.buttons {
+  margin-top: 50px;
+}
+
+.buttons button {
+  margin-right: 15px;
+  box-shadow: 1px 1px 10px 1px;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: .7rem;
+  letter-spacing: 2px;
+  transition: .5s;
+}
+
+.btn:hover {
+  color: #FFF;
+}
+
+.btn-danger {
+  background-color: rgba(255, 115, 0, 0.767);
+}
+
+.btn-submit {
+  background-color: rgba(255, 0, 0, 0.76);
+}
+
+.results {
+  background-color: #CECECE;
+  display: none;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 50px 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.results label{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.results img{
+  border-radius: 10px;
+}
+
+p {
+  font-weight: 600;
+}
